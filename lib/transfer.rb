@@ -1,10 +1,10 @@
 class Transfer
   
-  attr_reader :payor, :payee, :amount
+  attr_reader :sender, :receiver, :amount
   
-  def initialize(payor, payee, amount)
-    @payor = payor
-    @payee = payee
+  def initialize(sender, receiver, amount)
+    @sender = sender
+    @receiver = receiver
     @amount = amount
   end
 end
