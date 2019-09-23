@@ -11,6 +11,7 @@ class Transfer
   end
   
   def valid?
+    if sender.status 
     
   end
 end
